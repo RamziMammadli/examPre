@@ -1,0 +1,18 @@
+.btn {
+    width: 45%;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(251, 109, 58);
+}
+
+.btn:active {
+    background-color: rgb(45, 34, 12);
+}
+

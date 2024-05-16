@@ -1,0 +1,92 @@
+
+.container {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.containerTop {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.containerTopA{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.ptext {
+    color: white;
+    font-size: 14px;
+}
+.logreg {
+    color: orange;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+}
+.containerBottom {
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.containerBottomA{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactBox{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.contactBox span {
+    font-size: 13px;
+}
+.nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+.nav {
+    display: flex;
+    gap: 15px;
+}
+.bars {
+    display: none;
+}
+.topRight {
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px){
+    .containerBottom {
+        display: none;
+    }
+    .logreg {
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .topRight {
+        gap: 10px;
+        align-items: center;
+    }
+    .container{
+        height: 70px;
+    }
+    .containerTop {
+        height: 100%;
+    }
+}
